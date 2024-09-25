@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">MAGIC MUSHROOMS</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex pt-2">
+                    <li class="nav-item">
+                        <a href="#sobre-o-site" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o site
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#catalogo" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Catálogo de cogumelos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-site">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/09/06/19/53/mushrooms-3659165_1280.jpg" alt="cogumelo a">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/12/01/16/00/mushrooms-8423967_1280.jpg" alt="cogumelo b">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/09/01/23/15/mushrooms-3647871_1280.jpg" alt="cogumelo c">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://cdn.pixabay.com/photo/2023/10/20/03/36/mushrooms-8328101_1280.jpg" class="d-block w-100 rounded" alt="cogumelos">
+                        </div>    
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o site</span></h2>
+                            <p>
+                                Este site é dedicado aos curiosos e colecionadores de cogumelos. Se você se interessa pelo imenso e mágico universo dos cogumelos, seja bem-vindo. Será um prazer compartilhar conhecimento e curiosidades com você!                             
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">os cogumelos</span></h3>
+                            <p>
+                                Os cogumelos fazem parte do reino fungi, ou seja, são fungos. Estima-se que exitam mais de 2 milhões de espécies pelo mundo, mas pouco mais de 120 mil são conhecidas e catalogadas. No nosso site você vai encontrar cogumelos separados nas seguintes categorias:
+                            </p>
+                            <ul>
+                                <li>Comestíveis</li>
+                                <li>Não comestíveis</li>
+                                <li>Alucinógenos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para <span class="text-colored">curiosos botânicos</span> </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2017/10/04/21/36/fly-agaric-2817723_1280.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored">
+                            Encontros
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reprehenderit quas recusandae sapiente officia laboriosam, obcaecati distinctio ullam aperiam autem libero minima sed eveniet veniam nulla ex dolor, odio molestiae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2023/11/20/17/32/mushrooms-8401590_1280.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Cursos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reprehenderit quas recusandae sapiente officia laboriosam, obcaecati distinctio ullam aperiam autem libero minima sed eveniet veniam nulla ex dolor, odio molestiae.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://cdn.pixabay.com/photo/2020/04/02/11/20/fungus-4994622_1280.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Colheitas
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reprehenderit quas recusandae sapiente officia laboriosam, obcaecati distinctio ullam aperiam autem libero minima sed eveniet veniam nulla ex dolor, odio molestiae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Catálogo <span class="text-colored">de cogumelos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-catalogo">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#comestiveis" class="fw-bold text-start nav-link text-colored active">Comestíveis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nao-comestiveis"  class="fw-bold text-start nav-link text-colored">Não comestíveis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#alucinogenos" class="fw-bold text-start nav-link text-colored">Alucinógenos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="comestiveis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/03/07/10/30/mushrooms-8618284_1280.jpg" alt="cogumelo portobello">
+                                        <h5 class="text-colored fw-bold mt-2">Portobello</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2021/06/08/11/27/mushrooms-6320451_1280.jpg" alt="cogumelo de paris">
+                                        <h5 class="text-colored fw-bold mt-2">Champignon</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/07/10/20/55/mushrooms-389421_960_720.jpg" alt="cogumelo shimeji">
+                                        <h5 class="text-colored fw-bold mt-2">Shimeji</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/04/13/10/30/shiitake-mushroom-7922306_960_720.jpg" alt="cogumelo shiitake">
+                                        <h5 class="text-colored fw-bold mt-2">Shiitake</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/01/25/09/18/oyster-mushrooms-7742902_1280.jpg" alt="cogumelo hiratake">
+                                        <h5 class="text-colored fw-bold mt-2">Hiratake</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/02/11/19/46/fungus-1194380_1280.jpg" alt="cogumelo cantarelo">
+                                        <h5 class="text-colored fw-bold mt-2">Chanterelle</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/09/28/08/48/chestnut-bolete-3708755_1280.jpg" alt="cogumelo trombeta">
+                                        <h5 class="text-colored fw-bold mt-2">Trombeta</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/vecteezy_enoki-mushroom-or-golden-needle-mushroom-on-wooden-background_19569423.JPG" alt="cogumelo beech">
+                                        <h5 class="text-colored fw-bold mt-2">Beech</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/vecteezy_freshly-harvested-morel-mushrooms-in-a-rustic-wooden-box-on_50126964.jpeg" alt="cogumelo morchella">
+                                        <h5 class="text-colored fw-bold mt-2">Morchella</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/vecteezy_puffball-in-the-forest_6515312 (1).jpg" alt="cogumelo lycoperdon">
+                                        <h5 class="text-colored fw-bold mt-2">Lycoperdon</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>   
+                                </div>
+                            </div>    
+                            <div class="tab-pane" id="nao-comestiveis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/08/20/18/42/mushrooms-8202942_1280.jpg" alt="cogumelo Jipplers Bane">
+                                        <h5 class="text-colored fw-bold mt-2">Jipplers Bane</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/09/06/19/53/mushrooms-3659165_1280.jpg" alt="cogumelo skullcap">
+                                        <h5 class="text-colored fw-bold mt-2">Autumm Skullcap</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/09/17/19/57/mushrooms-5580235_1280.jpg" alt="cogumelo destroying angel">
+                                        <h5 class="text-colored fw-bold mt-2">Destroying Angel</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="alucinogenos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/10/04/21/36/fly-agaric-2817723_1280.jpg" alt="cogumelo amanita">
+                                        <h5 class="text-colored fw-bold mt-2">Amanita Muscaria</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/11/02/21/12/mushroom-7566020_1280.jpg" alt="cogumelo Psilocybe semilanceata ">
+                                        <h5 class="text-colored fw-bold mt-2">Psilocybe semilanceata</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/09/01/23/15/mushrooms-3647871_1280.jpg" alt="cogumelo bonnets ">
+                                        <h5 class="text-colored fw-bold mt-2">Bonnets</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-4">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Rua dos Fungos, Cagumelândia - João Pessoa - PB
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>

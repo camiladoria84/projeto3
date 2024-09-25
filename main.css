@@ -1,0 +1,61 @@
+body {
+    font-family: Montserrat, sans-serif;
+    color: #D56B01;
+}
+
+.navbar {
+    background-color: #283e30;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fac7a6;
+    color: #283e30;
+
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-catalogo .nav-link.active:hover {
+    color: #fac7a6;
+}
+
+.navbar-toggler {
+    background-color: #fac7a6;
+}
+
+.section-title {
+    font-family: Nanum Myeongjo, serif;
+}
+
+
+#sobre-o-site, #catalogo{
+    background-color: #fac7a6;
+}
+
+.text-colored {
+    color: #7f171f;
+}
+
+.nav-catalogo .nav-link.active,
+#fale-conosco button {
+    background-color: #7f171f;
+    color: #fac7a6;
+}
+
+.nav-catalogo .nav-link:hover {
+    color: #7f171f;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#eventos, #fale-conosco {
+    background-color: #f5e2dc;
+}
